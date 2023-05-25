@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section h2 {
+    text-align: center;
+
+}
+.clock{
+    padding: 20px;
+    background-color: #e1c;
+    box-shadow: 0 12px 20px #393838;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
